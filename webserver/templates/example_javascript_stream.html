@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+Javascript stream example
+{%  endblock %}
+
+{% block content %}
+    <article>
+        <header>
+            <!--in this case, the data transmitted from example_stream api will be displayed in "random_int" id:-->
+            <h1 id="random_int"></h1>
+            <script src="../static/js/jquery-latest.js"></script>
+            <script src="../static/js/webinfra.js"></script>
+            <script>
+                <!--this invocr the "display_strean function in webinfra.js"-->
+                display_stream();
+            </script>
+            <p></p>
+        </header>
+
+        <section>
+            <h2></h2>
+        </section>
+    </article>
+{% endblock %}

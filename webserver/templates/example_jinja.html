@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+Javascript stream example
+{%  endblock %}
+
+{% block content %}
+    <article>
+        <header>
+            <!--in this case, jinja2 object called "jinja_object" is sent from server and displayed here:-->
+            <h1>
+            </h1>
+            <ul>
+                <li>User: {{ jinja_object.username }}</li>
+                <li>UserId: {{ jinja_object.id }}</li>
+            </ul>
+        </header>
+
+        <section>
+            <h2></h2>
+        </section>
+    </article>
+{% endblock %}
