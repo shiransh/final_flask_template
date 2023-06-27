@@ -2,7 +2,7 @@ amqp==2.5.1
 billiard==3.6.1.0
 celery==5.2.2
 Click==7.0
-Flask==1.1.1
+Flask==2.2.5
 Flask-Login==0.4.1
 Flask-Script==2.0.6
 Flask-Script-Extras==0.1.4
